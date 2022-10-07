@@ -10,8 +10,8 @@
 }
 
 body {
-  background: rgb(224, 109, 176);
-  font: normal 15pt Arial;
+  background: rgb(56, 160, 161);
+  font: var(--fonte-destaque);
 }
 
 header {
@@ -56,5 +56,18 @@ div > p {
 footer {
   color: white;
   text-align: center;
-  font-style: italic;
+  font-family: var(--fonte-destaque);
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--fonte-destaque);
 }
